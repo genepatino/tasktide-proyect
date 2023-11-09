@@ -1,11 +1,10 @@
 .tasks_container {
   width: 60%;
   height: 70%;
-  bottom: 0;
+  top: 0;
   position: absolute;
   display: grid;
   grid-template-rows: 100px 100px 1fr;
-  z-index: 2;
 }
 
 .active_completed_task_container {

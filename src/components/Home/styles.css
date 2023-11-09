@@ -13,22 +13,20 @@ html {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-rows: 100px 100px 1fr;
+  grid-template-rows: 100px 120px 1fr;
   place-items: center;
-  gap: 4rem;
-  overflow: hidden;
-
+  gap: 20px;
 }
 
 .page_container_background{
   width: 90%;
   height: 100%;
   position: relative;
-  z-index: 1;
   display: grid;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
 }
+
 
 .page_container_header{
   font-size: 5rem;

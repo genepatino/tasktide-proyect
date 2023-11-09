@@ -62,8 +62,8 @@ const Home: React.FC = () => {
         <InputNewTask />
         <section className="page_container_background">
           <BackgroundImages />
+          <TasksList />
         </section>
-        <TasksList />
       </main>
     </DragDropContext>
   );
