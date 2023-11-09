@@ -34,11 +34,11 @@
   font-family: 'Edu TAS Beginner', cursive;
 }
 .active_task {
-  border: 4px solid #e12be2;
+  border: 4px solid #ba2abb;
 }
 
 .completed_task {
-  border: 4px solid aqua;
+  border: 4px solid #37e0e0;
 }
 
 .list_container{
