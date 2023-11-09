@@ -5,9 +5,11 @@ import { Droppable } from "react-beautiful-dnd";
 import { SingleTask } from "../SingleTask/index";
 
 import "./styles.css";
+import { LoadingSkeleton } from "../LoadingSkeleton";
 
 const TasksList: React.FC = () => {
-  const { activeTasks, completedTasks } = useContext(TasksListContext);
+  const { activeTasks, completedTasks, loader, messageError } =
+    useContext(TasksListContext);
 
   return (
     <main className="tasks_container">
@@ -20,7 +22,12 @@ const TasksList: React.FC = () => {
               {...provided.droppableProps}
             >
               <h2 className="title_container_task">Active tasks</h2>
-              <ul className="list_container">
+              {loader && <LoadingSkeleton />}
+              {messageError && <p>Oh no, hubo un error</p>}
+              {!loader && activeTasks.length === 0 && (
+                <p className="message">Create your task</p>
+              )}
+              <ul className={loader ? "hidden" : "list_container"}>
                 {activeTasks?.map((task, index) => (
                   <SingleTask
                     isDone={false}
@@ -42,10 +49,15 @@ const TasksList: React.FC = () => {
               {...provided.droppableProps}
             >
               <h2 className="title_container_task">Completed tasks</h2>
-              <ul className="list_container">
-                {completedTasks.map((task, index) => (
+              {loader && <LoadingSkeleton />}
+              {messageError && <p>Oh no, hubo un error</p>}
+              {!loader && completedTasks.length === 0 && (
+                <p className="message">No tasks completed</p>
+              )}
+              <ul className={loader ? "hidden" : "list_container"}>
+                {completedTasks?.map((task, index) => (
                   <SingleTask
-                    isDone={true}
+                    isDone={false}
                     index={index}
                     key={task.id}
                     task={task}

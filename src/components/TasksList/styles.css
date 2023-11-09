@@ -46,6 +46,17 @@
   flex-direction: column;
 }
 
+.hidden {
+  display: none;
+}
+
+.message{
+  font-size: 1.8rem;
+  text-align: end;
+  margin-top: 10px;
+
+}
+
 @media (max-width: 600px){
   .tasks_container{
     justify-content: center;

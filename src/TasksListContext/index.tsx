@@ -1,5 +1,4 @@
-import { createContext, useState } from "react";
-
+import { createContext, useEffect, useState } from "react";
 import {
   activeTasksLocalStorageKey,
   completedTasksLocalStorageKey,
@@ -13,18 +12,28 @@ interface TaskChildrenProps {
 
 interface TasksContext {
   inputName: string;
-  setInputName: React.Dispatch<React.SetStateAction<string>>;
-  handleAddTask: (e: React.FormEvent) => void;
   activeTasks: Task[];
-  setActiveTasks: React.Dispatch<React.SetStateAction<Task[]>>;
   completedTasks: Task[];
+  loader: boolean;
+  messageError: boolean;
+  setInputName: React.Dispatch<React.SetStateAction<string>>;
+  setActiveTasks: React.Dispatch<React.SetStateAction<Task[]>>;
   setCompletedTasks: React.Dispatch<React.SetStateAction<Task[]>>;
+  setLoader: React.Dispatch<React.SetStateAction<boolean>>;
+  setMessageError: React.Dispatch<React.SetStateAction<boolean>>;
+  handleAddTask: (e: React.FormEvent) => void;
 }
 
 export const TasksListContext = createContext<TasksContext>({} as TasksContext);
 
 export const TasksListContextProvider = ({ children }: TaskChildrenProps) => {
   //Declaramos los distintos estados estados o funciones globales
+
+  //Loader
+  const [loader, setLoader] = useState<boolean>(true);
+
+  //Message error
+  const [messageError, setMessageError] = useState<boolean>(false);
 
   // Input enter task name
   const [inputName, setInputName] = useState<string>("");
@@ -70,16 +79,45 @@ export const TasksListContextProvider = ({ children }: TaskChildrenProps) => {
       : [];
   });
 
+  useEffect(() => {
+    setTimeout(() => {
+      try {
+        const activeTasksFromLocalStorage = window.localStorage.getItem(
+          activeTasksLocalStorageKey
+        );
+        activeTasksFromLocalStorage
+          ? JSON.parse(activeTasksFromLocalStorage)
+          : [];
+
+        const completedTasksFromLocalStorage = window.localStorage.getItem(
+          completedTasksLocalStorageKey
+        );
+        completedTasksFromLocalStorage
+          ? JSON.parse(completedTasksFromLocalStorage)
+          : [];
+
+        setLoader(false);
+      } catch (error) {
+        setLoader(false);
+        setMessageError(true);
+      }
+    }, 2000);
+  }, []);
+
   return (
     <TasksListContext.Provider
       value={{
         inputName,
-        setInputName,
-        handleAddTask,
         activeTasks,
-        setActiveTasks,
         completedTasks,
+        loader,
+        messageError,
+        setInputName,
+        setActiveTasks,
         setCompletedTasks,
+        setLoader,
+        setMessageError,
+        handleAddTask,
       }}
     >
       {children}

@@ -23,7 +23,7 @@ const InputNewTask: React.FC = () => {
         onChange={(e) => setInputName(e.target.value)}
         className="form_container_input"
         type="input"
-        placeholder="Write your task"
+        placeholder="Wash the doggy"
       />
       <button className="form_container_button" type="submit">
         Save
