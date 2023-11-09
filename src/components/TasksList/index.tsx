@@ -57,7 +57,7 @@ const TasksList: React.FC = () => {
               <ul className={loader ? "hidden" : "list_container"}>
                 {completedTasks?.map((task, index) => (
                   <SingleTask
-                    isDone={false}
+                    isDone={true}
                     index={index}
                     key={task.id}
                     task={task}
