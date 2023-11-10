@@ -58,7 +58,7 @@ const Home: React.FC = () => {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <main className="page_container">
-        <h1 className="page_container_header">Welcome to TaskTide</h1>
+        <h1 className="page_container_header">Bienvenido a TaskTide</h1>
         <InputNewTask />
         <section className="page_container_background">
           <BackgroundImages />

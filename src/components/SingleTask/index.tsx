@@ -149,9 +149,11 @@ const SingleTask: React.FC<Props> = ({ index, task, isDone }) => {
         >
           {renderIsSelectedEdit()}
           <div className="icon_container">
-            <span className="icon" onClick={() => setEdit(!edit)}>
-              <AiOutlineEdit />
-            </span>
+            {!isDone && (
+              <span className="icon" onClick={() => setEdit(!edit)}>
+                <AiOutlineEdit />
+              </span>
+            )}
             <span className="icon" onClick={deleteTask}>
               <AiOutlineDelete />
             </span>

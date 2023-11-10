@@ -32,6 +32,11 @@
   box-shadow: 0 0 10px black;
 }
 
+.form_container_button .icon {
+  width: 60%;
+  height: 100%;
+}
+
 .form_container_button:hover{
   transform: scale(0.9);
 }

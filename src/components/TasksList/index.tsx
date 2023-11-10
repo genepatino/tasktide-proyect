@@ -21,7 +21,7 @@ const TasksList: React.FC = () => {
               ref={provided.innerRef}
               {...provided.droppableProps}
             >
-              <h2 className="title_container_task">Active tasks</h2>
+              <h2 className="title_container_task">Tareas activas</h2>
               {loader && <LoadingSkeleton />}
               {messageError && <p>Oh no, hubo un error</p>}
               {!loader && activeTasks.length === 0 && (
@@ -48,7 +48,7 @@ const TasksList: React.FC = () => {
               ref={provided.innerRef}
               {...provided.droppableProps}
             >
-              <h2 className="title_container_task">Completed tasks</h2>
+              <h2 className="title_container_task">Tareas completadas</h2>
               {loader && <LoadingSkeleton />}
               {messageError && <p>Oh no, hubo un error</p>}
               {!loader && completedTasks.length === 0 && (

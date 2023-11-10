@@ -1,5 +1,6 @@
 import { useContext, useRef } from "react";
 import { TasksListContext } from "../../TasksListContext/index";
+import { MdOutlineDoneOutline } from "react-icons/md";
 
 import "./styles.css";
 
@@ -23,10 +24,10 @@ const InputNewTask: React.FC = () => {
         onChange={(e) => setInputName(e.target.value)}
         className="form_container_input"
         type="input"
-        placeholder="Wash the doggy"
+        placeholder="Hacer las compras"
       />
       <button className="form_container_button" type="submit">
-        Save
+        <MdOutlineDoneOutline className="icon" />
       </button>
     </form>
   );
