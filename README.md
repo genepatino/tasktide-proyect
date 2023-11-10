@@ -1,5 +1,5 @@
 <h1 align="center">TaskTide</h1>
-<image src="src/images/tasktideImag.png" alt="Descripción de la imagen"></image>
+<image src="src/images/tasktideImag.png" alt="imagen de tasktide"></image>
 <p align="center">
    <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
