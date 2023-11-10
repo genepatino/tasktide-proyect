@@ -1,4 +1,6 @@
-# React + TypeScript + Vite
+# <center>TaskTide<center/>
+
+<image src="src/images/tasktideImage.png" alt="Descripción de la imagen"></image>
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
