@@ -30,5 +30,9 @@ Funcionalemente, se implementó el uso de Drag and drop de react-beautiful-dnd p
   <li> ✔️ Completar tareas (puede hacer uso de esta funcionalidad presionando el icono isDone o simplemente arrastrando la tarea que desee al contenedor <em>Tareas completadas</em>).</li>
 </ul>
 
+<p>A su derecha, en la sección About, encontrará el link de la aplicación.</p>
+
+<p><em>Gracias por mirar🌸</em></p>
+
 <h3>Autora:</h3><p>Génesis Patiño</p>
 <img src="src/images/avatar.png" alt="avatar github genepatino" width="120" height="120"></img>
