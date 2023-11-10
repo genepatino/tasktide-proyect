@@ -1,5 +1,5 @@
 <h1 align="center">TaskTide</h1>
-<image src="src/images/tasktideImage.png" alt="Descripción de la imagen"></image>
+<image src="src/images/tasktideImag.png" alt="Descripción de la imagen"></image>
 <p align="center">
    <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
@@ -30,9 +30,3 @@ Funcionalemente, se implementó el uso de Drag and drop de [react-beautiful-dnd]
 
 <h3>Autora:</h3><p>Génesis Patiño</p>
 	<img src="https://avatars.githubusercontent.com/u/62777013?v=4" height="114" width="114" class="avatar">
-
-<style>
-  .avatar{
-    border-radius: 50%
-  }
-</style>
