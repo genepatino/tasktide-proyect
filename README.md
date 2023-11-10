@@ -1,29 +1,29 @@
-# <center>TaskTide<center/>
-
+<h1 align="center">TaskTide</h1>
 <image src="src/images/tasktideImage.png" alt="Descripción de la imagen"></image>
+<p align="center">
+   <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
+   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
+   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+   <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white">
+   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white">
+   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+   <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7">
+   <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+</p>
+<h2>Introduction</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> TaskTide es una app de notas pensada para facilitar el manejo de sus tareas y horarios. 
+Brinda una experiencia rápida y sencilla para llevar registro de datos importantes, mensajes, lista de compras, cosas por hacer, etc.
+Funcionalemente, se implementó el uso de Drag and drop para mayor interactividad y LocalStorage para la persistencia de datos.
 
-Currently, two official plugins are available:
+<h2>Description</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Inicialmente verá un input en el que debe ingresar sus tareas, estás podrán ser visualizadas en el contenedor de <em>ActiveTask</em> (tareas activas). Hay un segundo contenedor, <em>CompletedTasks</em> en el qué se visualizarán las tareas completadas</p>
 
-## Expanding the ESLint configuration
+<h3>TaskTide cuenta con distintas funcionalides:</h3>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<ul>
+  <li>Editar tareas (input que será desplegado en la card de tarea para ser editada), siempre y cuando la tarea no este en el contenedor <em>CompletedTask</em></li>
+  <li>Eliminar tareas</li>
+  <li>Completar tarea (puede hacer uso de esta funcionalidad presionando el icono isDone o simplemente arrastrando la tarea que desee al contenedor <em>CompletedTask</em>)</li>
+</ul>
