@@ -16,6 +16,8 @@
 Brinda una experiencia rápida y sencilla para llevar registro de datos importantes, mensajes, lista de compras, cosas por hacer, etc.
 Funcionalemente, se implementó el uso de Drag and drop de react-beautiful-dnd para mayor interactividad, react-icons para el uso de iconos y LocalStorage para la persistencia de datos.<p>
 
+<img src="src/images/loading.png" alt="estado de carga de la aplicación"></img>
+
 <h2>Descripción</h2>
 
 <p>Inicialmente verá un input en el que debe ingresar sus tareas, estás podrán ser visualizadas en el contenedor de <em>Tareas activas</em>. Además, hay un segundo contenedor en el qué se visualizarán las <em>Tareas completadas</em></p>
