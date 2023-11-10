@@ -14,7 +14,7 @@
 
 <p>TaskTide es una app de notas pensada para facilitar el manejo de sus tareas y horarios.
 Brinda una experiencia rápida y sencilla para llevar registro de datos importantes, mensajes, lista de compras, cosas por hacer, etc.
-Funcionalemente, se implementó el uso de Drag and drop de [react-beautiful-dnd](http://https://www.npmjs.com/package/react-beautiful-dnd "react-beautiful-dnd") para mayor interactividad, [react-icons](http://https://react-icons.github.io/react-icons/ "react-icons") para el uso de iconos y LocalStorage para la persistencia de datos.<p>
+Funcionalemente, se implementó el uso de Drag and drop de para mayor interactividad,  para el uso de iconos y LocalStorage para la persistencia de datos.<p>
 
 <h2>Descripción</h2>
 
