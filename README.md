@@ -1,5 +1,5 @@
 <h1 align="center">TaskTide</h1>
-<image src="src/images/tasktideImag.png" alt="imagen de tasktide"></image>
+<img src="src/images/tasktideImag.png" alt="imagen de tasktide"></img>
 <p align="center">
    <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white">
@@ -29,3 +29,4 @@ Funcionalemente, se implementó el uso de Drag and drop react-beautiful-dnd para
 </ul>
 
 <h3>Autora:</h3><p>Génesis Patiño</p>
+<img src="src/images/avatar.png" alt="avatar github genepatino"></img>
