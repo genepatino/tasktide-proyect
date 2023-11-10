@@ -29,4 +29,3 @@ Funcionalemente, se implementó el uso de Drag and drop react-beautiful-dnd para
 </ul>
 
 <h3>Autora:</h3><p>Génesis Patiño</p>
-	<img src="https://avatars.githubusercontent.com/u/62777013?v=4" height="114" width="114" class="avatar">
