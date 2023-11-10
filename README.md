@@ -14,7 +14,7 @@
 
 > TaskTide es una app de notas pensada para facilitar el manejo de sus tareas y horarios. 
 Brinda una experiencia rápida y sencilla para llevar registro de datos importantes, mensajes, lista de compras, cosas por hacer, etc.
-Funcionalemente, se implementó el uso de Drag and drop para mayor interactividad y LocalStorage para la persistencia de datos.
+Funcionalemente, se implementó el uso de Drag and drop de [react-beautiful-dnd](http://https://www.npmjs.com/package/react-beautiful-dnd "react-beautiful-dnd") para mayor interactividad, [react-icons](http://https://react-icons.github.io/react-icons/ "react-icons") para el uso de iconos y LocalStorage para la persistencia de datos.
 
 <h2>Description</h2>
 
@@ -23,7 +23,10 @@ Funcionalemente, se implementó el uso de Drag and drop para mayor interactivida
 <h3>TaskTide cuenta con distintas funcionalides:</h3>
 
 <ul>
-  <li>Editar tareas (input que será desplegado en la card de tarea para ser editada), siempre y cuando la tarea no este en el contenedor <em>CompletedTask</em></li>
-  <li>Eliminar tareas</li>
-  <li>Completar tarea (puede hacer uso de esta funcionalidad presionando el icono isDone o simplemente arrastrando la tarea que desee al contenedor <em>CompletedTask</em>)</li>
+  <li> ✏️ Editar tareas (input que será desplegado en la card de tarea para ser editada), siempre y cuando la tarea no este en el contenedor <em>CompletedTask.</em></li>
+  <li> 🗑️ Eliminar tareas.</li>
+  <li> ✔️ Completar tarea (puede hacer uso de esta funcionalidad presionando el icono isDone o simplemente arrastrando la tarea que desee al contenedor <em>CompletedTask</em>).</li>
 </ul>
+
+<h3>Autora: Génesis Patiño</h3>
+	<img src="https://avatars.githubusercontent.com/u/62777013?v=4" height="114" width="114" style="border-radius:50%">
