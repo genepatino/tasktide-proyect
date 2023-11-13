@@ -10,24 +10,24 @@ import "./styles.css";
 const BackgroundImages: React.FC = () => {
   return (
     <>
-      <figcaption className="container_imag">
+      <figure className="container_imag">
         <img src={Blockchange} alt="blockchain" />
-      </figcaption>
-      <figcaption className="container_imag">
+      </figure>
+      <figure className="container_imag">
         <img src={Communication} alt="communication" />
-      </figcaption>
-      <figcaption className="container_imag">
+      </figure>
+      <figure className="container_imag">
         <img src={Management} alt="management" />
-      </figcaption>
-      <figcaption className="container_imag">
+      </figure>
+      <figure className="container_imag">
         <img src={Media} alt="media" />
-      </figcaption>
-      <figcaption className="container_imag">
+      </figure>
+      <figure className="container_imag">
         <img src={RemoteLife} alt="remoteLife" />
-      </figcaption>
-      <figcaption className="container_imag">
+      </figure>
+      <figure className="container_imag">
         <img src={VirtualReality} alt="virtualReality" />
-      </figcaption>
+      </figure>
     </>
   );
 };

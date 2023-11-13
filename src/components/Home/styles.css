@@ -9,6 +9,7 @@ html {
 }
 
 .page_container{
+  overflow-x: hidden;
   min-width: 360px;
   width: 100vw;
   height: 100vh;
@@ -37,9 +38,9 @@ html {
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 667px){
   .page_container_background{
-    grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   }
   .page_container_header{
     font-size: 4rem;
