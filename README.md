@@ -30,9 +30,6 @@ Funcionalemente, se implementó el uso de Drag and drop de react-beautiful-dnd p
   <li> ✔️ Completar tareas (puede hacer uso de esta funcionalidad presionando el icono isDone o simplemente arrastrando la tarea que desee al contenedor <em>Tareas completadas</em>).</li>
 </ul>
 
-![taskTide_demo](src/images/taskTideVideo.mp4){width="320" height="240"}
-
-
 <p>A su derecha, en la sección About, encontrará el link de la aplicación.</p>
 
 <p><em>Gracias por mirar🌸</em></p>
