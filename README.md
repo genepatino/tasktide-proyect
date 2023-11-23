@@ -30,7 +30,10 @@ Funcionalemente, se implementó el uso de Drag and drop de react-beautiful-dnd p
   <li> ✔️ Completar tareas (puede hacer uso de esta funcionalidad presionando el icono isDone o simplemente arrastrando la tarea que desee al contenedor <em>Tareas completadas</em>).</li>
 </ul>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/jqVjwdTYaS8?si=AXcCQa4oTCp__soc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+https://github.com/genepatino/tasktide-proyect/assets/62777013/ca4d131f-a197-41e5-9252-241698b37bcb
+
+
 
 <p>A su derecha, en la sección About, encontrará el link de la aplicación.</p>
 
