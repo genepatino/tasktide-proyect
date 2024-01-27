@@ -80,28 +80,26 @@ export const TasksListContextProvider = ({ children }: TaskChildrenProps) => {
   });
 
   useEffect(() => {
-    setTimeout(() => {
-      try {
-        const activeTasksFromLocalStorage = window.localStorage.getItem(
-          activeTasksLocalStorageKey
-        );
-        activeTasksFromLocalStorage
-          ? JSON.parse(activeTasksFromLocalStorage)
-          : [];
+    try {
+      const activeTasksFromLocalStorage = window.localStorage.getItem(
+        activeTasksLocalStorageKey
+      );
+      activeTasksFromLocalStorage
+        ? JSON.parse(activeTasksFromLocalStorage)
+        : [];
 
-        const completedTasksFromLocalStorage = window.localStorage.getItem(
-          completedTasksLocalStorageKey
-        );
-        completedTasksFromLocalStorage
-          ? JSON.parse(completedTasksFromLocalStorage)
-          : [];
+      const completedTasksFromLocalStorage = window.localStorage.getItem(
+        completedTasksLocalStorageKey
+      );
+      completedTasksFromLocalStorage
+        ? JSON.parse(completedTasksFromLocalStorage)
+        : [];
 
-        setLoader(false);
-      } catch (error) {
-        setLoader(false);
-        setMessageError(true);
-      }
-    }, 2000);
+      setLoader(false);
+    } catch (error) {
+      setLoader(false);
+      setMessageError(true);
+    }
   }, []);
 
   return (
