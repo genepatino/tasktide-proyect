@@ -10,31 +10,29 @@
    <img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7">
    <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
 </p>
-<h2>Introducción</h2>
+<h2>Introduction</h2>
 
-<p>TaskTide es una app de notas pensada para facilitar el manejo de sus tareas y horarios.
-Brinda una experiencia rápida y sencilla para llevar registro de datos importantes, mensajes, lista de compras, cosas por hacer, etc.
-Funcionalemente, se implementó el uso de Drag and drop de react-beautiful-dnd para mayor interactividad, react-icons para el uso de iconos, localStorage para la persistencia de datos y un loading skeleton para simular las tareas durante el estado de carga.<p>
+<p>TaskTide is a notes application designed to make it easier to manage your tasks and schedules. Provides a quick and easy experience to keep track of important data, messages, shopping list, things to do, etc. Functionally, drag and drop usage of react-beautiful-dnd was implemented for greater interactivity, react-icons for the use of icons, localStorage for data persistence, and a loading skeleton to simulate tasks during the loading state.<p>
 
 <img src="src/images/loading.png" alt="estado de carga de la aplicación"></img>
 
-<h2>Descripción</h2>
+<h2>Description</h2>
 
-<p>Inicialmente verá un input en el que debe ingresar sus tareas, estás podrán ser visualizadas en el contenedor de <em>Tareas activas</em>. Además, hay un segundo contenedor en el qué se visualizarán las <em>Tareas completadas</em></p>
+<p>Initially you will see an entry in which you must enter your tasks, these can be displayed in the <em>Active Tasks</em> container. In addition, there is a second container in which the <em>Completed Tasks</em> will be displayed.</p>
 
-<h3>TaskTide cuenta con distintas funcionalides:</h3>
+<h3>TaskTide has different functionalities:</h3>
 
 <ul>
-  <li> ✏️ Editar tareas (input que será desplegado en la card de tarea para ser editada), siempre y cuando la tarea no este en el contenedor <em>Tareas completadas</em>.</li>
-  <li> 🗑️ Eliminar tareas.</li>
-  <li> ✔️ Completar tareas (puede hacer uso de esta funcionalidad presionando el icono isDone o simplemente arrastrando la tarea que desee al contenedor <em>Tareas completadas</em>).</li>
+   <li> ✏️ Edit tasks (input that will be displayed in the task card to be edited), as long as the task is not in the <em>Completed Tasks</em> container.</li>
+   <li> 🗑️ Delete tasks.</li>
+   <li> ✔️ Complete tasks (you can use this functionality by pressing the isDone icon or simply dragging the task you want to the <em>Completed Tasks</em> container).</li>
 </ul>
 
 https://github.com/genepatino/tasktide-proyect/assets/62777013/ca4d131f-a197-41e5-9252-241698b37bcb
 
-<p>A su derecha, en la sección About, encontrará el link de la aplicación.</p>
+<p>On your right, in the About section, you will find the link to the application.</p>
 
-<p><em>Gracias por mirar🌸</em></p>
+<p><em>Thanks for watching🌸</em></p>
 
-<h3>Autora:</h3><p>Génesis Patiño</p>
+<h3>Author:</h3><p>Génesis Patiño</p>
 <img src="src/images/avatar.png" alt="avatar github genepatino" width="120" height="120"></img>
